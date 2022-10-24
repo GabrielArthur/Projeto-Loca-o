@@ -31,7 +31,7 @@ public class ClientController {
     }
 
     @GetMapping
-    public List<Client> getAll(){
+    public List<Client> getAllClient(){
         return clientRepository.findAll();
     }
 
